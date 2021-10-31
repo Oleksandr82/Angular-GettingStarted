@@ -61,4 +61,8 @@ export class ProductListComponent implements OnInit {
     toggleImage() {
         this.showImage = !this.showImage;
     }
+
+    onRatingClicked($event: string): void {
+        console.log($event)
+    }
 }

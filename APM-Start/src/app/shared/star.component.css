@@ -1,6 +1,10 @@
 .crop {
   overflow: hidden;
 }
+.star-rating {
+  width: 75px; 
+  color:gold;
+}
 div {
   cursor: pointer;
 }
